@@ -27,6 +27,7 @@ title: 微算機期末專題文件
 <div style="text-align: center;">
   <img src="https://hackmd.io/_uploads/ryBRDZSPJe.jpg" alt="初步系統架構" width="600">
 </div>
+
 ### 系統流程圖
 
 <div style="text-align: center;">
