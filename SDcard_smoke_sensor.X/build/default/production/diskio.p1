@@ -1,0 +1,1600 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"196 ./mcc_generated_files/spi.h
+[; ;./mcc_generated_files/spi.h: 196:     uint8_t SPI_Exchange8bit(uint8_t data);
+[v _SPI_Exchange8bit `(uc ~T0 @X0 0 ef1`uc ]
+[v F239 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v2.50\pic\include\builtins.h
+[v __delay `JF239 ~T0 @X0 0 e ]
+[p i __delay ]
+"7658 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 7658: extern volatile __bit LATC2 __attribute__((address(0x7C5A)));
+[v _LATC2 `Vb ~T0 @X0 0 e@31834 ]
+"117 ./mcc_generated_files/spi.h
+[; ;./mcc_generated_files/spi.h: 117:     void SPI_Initialize(void);
+[v _SPI_Initialize `(v ~T0 @X0 0 ef ]
+"161
+[; ;./mcc_generated_files/spi.h: 161:     void SPI_Open(void);
+[v _SPI_Open `(v ~T0 @X0 0 ef ]
+"380 diskio.c
+[; ;diskio.c: 380: DRESULT disk_read (
+[c E45 0 1 2 3 4 .. ]
+[n E45 . RES_OK RES_ERROR RES_WRPRT RES_NOTRDY RES_PARERR  ]
+"54 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 54: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"273
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 273: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"452
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 452: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"634
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 634: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"776
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 776: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"979
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 979: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1091
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1091: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1203
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1203: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1315
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1315: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"1427
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1427: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"1479
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1479: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1484
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1484: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1701
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1701: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1706
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1706: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"1923
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1923: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"1928
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 1928: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2145
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2145: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"2150
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2150: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"2367
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2367: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"2372
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2372: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"2531
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2531: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2596
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2596: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2673
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2673: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2750
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2750: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2827
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2827: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2893
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2893: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2959
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 2959: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3025
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3025: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3091
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3091: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3098
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3098: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3105
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3105: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3112
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3112: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3117
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3117: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3322
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3322: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3327
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3327: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3578
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3578: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3583
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3583: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3590
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3590: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3595
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3595: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3602
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3602: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3607
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3607: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3614
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3614: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3621
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3621: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3733
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3733: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3740
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3740: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3747
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3747: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3754
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3754: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"3844
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3844: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3923
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3923: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"3928
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 3928: __asm("ECCPAS equ 0FB6h");
+[; <" ECCPAS equ 0FB6h ;# ">
+"4085
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4085: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"4090
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4090: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4223
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4223: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4228
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4228: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4403
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4403: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4482
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4482: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4489
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4489: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4496
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4496: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4503
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4503: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4600
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4600: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4607
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4607: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4614
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4614: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4621
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4621: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4692
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4692: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4777
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4777: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4896
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4896: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4903
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4903: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4910
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4910: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4917
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 4917: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5012
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5012: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5082
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5082: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5303
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5303: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"5310
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5310: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"5317
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5317: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5415
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5415: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5420
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5420: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5525
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5525: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5532
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5532: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5635
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5635: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5642
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5642: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5649
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5649: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5656
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5656: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5789
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5789: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5817
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5817: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5822
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 5822: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6087
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6087: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6170
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6170: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6253
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6253: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6260
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6260: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6267
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6267: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6274
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6274: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"6345
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6345: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"6352
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6352: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"6359
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6359: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"6366
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6366: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6373
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6373: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"6380
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6380: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6387
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6387: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6394
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6394: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"6401
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6401: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"6408
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6408: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"6415
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6415: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"6422
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6422: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"6429
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6429: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6436
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6436: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"6443
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6443: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6450
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6450: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6457
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6457: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"6464
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6464: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"6476
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6476: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"6483
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6483: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"6490
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6490: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"6497
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6497: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6504
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6504: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"6511
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6511: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6518
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6518: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6525
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6525: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6532
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6532: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6624
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6624: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6694
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6694: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6811
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6811: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6818
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6818: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6825
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6825: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6832
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6832: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6841
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6841: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6848
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6848: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6855
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6855: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6862
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6862: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6871
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6871: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6878
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6878: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6885
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6885: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6892
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6892: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6899
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6899: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6906
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6906: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6980
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6980: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6987
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6987: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"6994
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 6994: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7001
+[; ;C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4520.h: 7001: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"70 diskio.c
+[; ;diskio.c: 70: DSTATUS Stat = 0x01;
+[v _Stat `uc ~T0 @X0 1 s ]
+[i _Stat
+-> -> 1 `i `uc
+]
+"73
+[; ;diskio.c: 73: BYTE CardType;
+[v _CardType `uc ~T0 @X0 1 s ]
+"82
+[; ;diskio.c: 82: BYTE wait_ready (void)
+[v _wait_ready `(uc ~T0 @X0 1 sf ]
+"83
+[; ;diskio.c: 83: {
+{
+[e :U _wait_ready ]
+[f ]
+"84
+[; ;diskio.c: 84:  UINT tmr;
+[v _tmr `us ~T0 @X0 1 a ]
+"87
+[; ;diskio.c: 87:  for (tmr = 5000; tmr; tmr--) {
+{
+[e = _tmr -> -> 5000 `i `us ]
+[e $U 285  ]
+[e :U 282 ]
+{
+"88
+[; ;diskio.c: 88:   if (SPI_Exchange8bit(0xFF) == 0xFF) break;
+[e $ ! == -> ( _SPI_Exchange8bit (1 -> -> 255 `i `uc `i -> 255 `i 286  ]
+[e $U 283  ]
+[e :U 286 ]
+"89
+[; ;diskio.c: 89:   _delay((unsigned long)((100)*(8000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
+"90
+[; ;diskio.c: 90:  }
+}
+[e -- _tmr -> -> 1 `i `us ]
+[e :U 285 ]
+[e $ != -> _tmr `ui -> -> 0 `i `ui 282  ]
+[e :U 283 ]
+}
+"92
+[; ;diskio.c: 92:  return tmr ? 1 : 0;
+[e ) -> ? != -> _tmr `ui -> -> 0 `i `ui : -> 1 `i -> 0 `i `uc ]
+[e $UE 281  ]
+"93
+[; ;diskio.c: 93: }
+[e :UE 281 ]
+}
+"102
+[; ;diskio.c: 102: void deselect (void)
+[v _deselect `(v ~T0 @X0 1 sf ]
+"103
+[; ;diskio.c: 103: {
+{
+[e :U _deselect ]
+[f ]
+"104
+[; ;diskio.c: 104:  do { LATC2 = 1; } while(0);
+[e :U 290 ]
+{
+[e = _LATC2 -> -> 1 `i `b ]
+}
+[e :U 289 ]
+"105
+[; ;diskio.c: 105:  SPI_Exchange8bit(0xFF);
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"106
+[; ;diskio.c: 106: }
+[e :UE 287 ]
+}
+"115
+[; ;diskio.c: 115: BYTE select (void)
+[v _select `(uc ~T0 @X0 1 sf ]
+"116
+[; ;diskio.c: 116: {
+{
+[e :U _select ]
+[f ]
+"117
+[; ;diskio.c: 117:  do { LATC2 = 0; } while(0);
+[e :U 294 ]
+{
+[e = _LATC2 -> -> 0 `i `b ]
+}
+[e :U 293 ]
+"118
+[; ;diskio.c: 118:  SPI_Exchange8bit(0xFF);
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"119
+[; ;diskio.c: 119:  if (wait_ready()) return 1;
+[e $ ! != -> ( _wait_ready ..  `i -> 0 `i 295  ]
+[e ) -> -> 1 `i `uc ]
+[e $UE 291  ]
+[e :U 295 ]
+"121
+[; ;diskio.c: 121:  deselect();
+[e ( _deselect ..  ]
+"122
+[; ;diskio.c: 122:  return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 291  ]
+"123
+[; ;diskio.c: 123: }
+[e :UE 291 ]
+}
+"132
+[; ;diskio.c: 132: BYTE rcvr_datablock (
+[v _rcvr_datablock `(uc ~T0 @X0 1 sf2`*uc`us ]
+"136
+[; ;diskio.c: 136: {
+{
+[e :U _rcvr_datablock ]
+"133
+[; ;diskio.c: 133:  BYTE *buff,
+[v _buff `*uc ~T0 @X0 1 r1 ]
+"134
+[; ;diskio.c: 134:  UINT btr
+[v _btr `us ~T0 @X0 1 r2 ]
+"136
+[; ;diskio.c: 136: {
+[f ]
+"137
+[; ;diskio.c: 137:  BYTE token;
+[v _token `uc ~T0 @X0 1 a ]
+"138
+[; ;diskio.c: 138:  UINT tmr;
+[v _tmr `us ~T0 @X0 1 a ]
+"141
+[; ;diskio.c: 141:  for (tmr = 2000; tmr; tmr--) {
+{
+[e = _tmr -> -> 2000 `i `us ]
+[e $U 300  ]
+[e :U 297 ]
+{
+"142
+[; ;diskio.c: 142:   token = SPI_Exchange8bit(0xFF);
+[e = _token ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"143
+[; ;diskio.c: 143:   if (token != 0xFF) break;
+[e $ ! != -> _token `i -> 255 `i 301  ]
+[e $U 298  ]
+[e :U 301 ]
+"144
+[; ;diskio.c: 144:   _delay((unsigned long)((100)*(8000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
+"145
+[; ;diskio.c: 145:  }
+}
+[e -- _tmr -> -> 1 `i `us ]
+[e :U 300 ]
+[e $ != -> _tmr `ui -> -> 0 `i `ui 297  ]
+[e :U 298 ]
+}
+"146
+[; ;diskio.c: 146:  if (token != 0xFE) return 0;
+[e $ ! != -> _token `i -> 254 `i 302  ]
+[e ) -> -> 0 `i `uc ]
+[e $UE 296  ]
+[e :U 302 ]
+"148
+[; ;diskio.c: 148:  do
+[e :U 305 ]
+"149
+[; ;diskio.c: 149:   *buff++ = SPI_Exchange8bit(0xFF);
+[e = *U ++ _buff * -> -> 1 `i `x -> -> # *U _buff `i `x ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+[e $ != -> =- _btr -> -> 1 `i `us `ui -> -> 0 `i `ui 305  ]
+[e :U 304 ]
+"151
+[; ;diskio.c: 151:  SPI_Exchange8bit(0xFF);
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"152
+[; ;diskio.c: 152:  SPI_Exchange8bit(0xFF);
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"154
+[; ;diskio.c: 154:  return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 296  ]
+"155
+[; ;diskio.c: 155: }
+[e :UE 296 ]
+}
+"165
+[; ;diskio.c: 165: BYTE xmit_datablock (
+[v _xmit_datablock `(uc ~T0 @X0 1 sf2`*Cuc`uc ]
+"169
+[; ;diskio.c: 169: {
+{
+[e :U _xmit_datablock ]
+"166
+[; ;diskio.c: 166:  const BYTE *buff,
+[v _buff `*Cuc ~T0 @X0 1 r1 ]
+"167
+[; ;diskio.c: 167:  BYTE token
+[v _token `uc ~T0 @X0 1 r2 ]
+"169
+[; ;diskio.c: 169: {
+[f ]
+"170
+[; ;diskio.c: 170:  BYTE resp;
+[v _resp `uc ~T0 @X0 1 a ]
+"171
+[; ;diskio.c: 171:  WORD i;
+[v _i `us ~T0 @X0 1 a ]
+"174
+[; ;diskio.c: 174:  if (!wait_ready()) return 0;
+[e $ ! ! != -> ( _wait_ready ..  `i -> 0 `i 307  ]
+[e ) -> -> 0 `i `uc ]
+[e $UE 306  ]
+[e :U 307 ]
+"176
+[; ;diskio.c: 176:  SPI_Exchange8bit(token);
+[e ( _SPI_Exchange8bit (1 _token ]
+"177
+[; ;diskio.c: 177:  if (token != 0xFD) {
+[e $ ! != -> _token `i -> 253 `i 308  ]
+{
+"178
+[; ;diskio.c: 178:   i = 512;
+[e = _i -> -> 512 `i `us ]
+"179
+[; ;diskio.c: 179:   do
+[e :U 311 ]
+"180
+[; ;diskio.c: 180:    SPI_Exchange8bit(*buff++);
+[e ( _SPI_Exchange8bit (1 *U ++ _buff * -> -> 1 `i `x -> -> # *U _buff `i `x ]
+[e $ != -> =- _i -> -> 1 `i `us `ui -> -> 0 `i `ui 311  ]
+[e :U 310 ]
+"182
+[; ;diskio.c: 182:   SPI_Exchange8bit(0xFF);
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"183
+[; ;diskio.c: 183:   SPI_Exchange8bit(0xFF);
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"184
+[; ;diskio.c: 184:   resp = SPI_Exchange8bit(0xFF);
+[e = _resp ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"185
+[; ;diskio.c: 185:   if ((resp & 0x1F) != 0x05)
+[e $ ! != & -> _resp `i -> 31 `i -> 5 `i 312  ]
+"186
+[; ;diskio.c: 186:    return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 306  ]
+[e :U 312 ]
+"187
+[; ;diskio.c: 187:  }
+}
+[e :U 308 ]
+"189
+[; ;diskio.c: 189:  return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 306  ]
+"190
+[; ;diskio.c: 190: }
+[e :UE 306 ]
+}
+"204
+[; ;diskio.c: 204: BYTE __send_cmd (
+[v ___send_cmd `(uc ~T0 @X0 1 sf2`uc`ul ]
+"208
+[; ;diskio.c: 208: {
+{
+[e :U ___send_cmd ]
+"205
+[; ;diskio.c: 205:  BYTE cmd,
+[v _cmd `uc ~T0 @X0 1 r1 ]
+"206
+[; ;diskio.c: 206:  DWORD arg
+[v _arg `ul ~T0 @X0 1 r2 ]
+"208
+[; ;diskio.c: 208: {
+[f ]
+"209
+[; ;diskio.c: 209:  BYTE n, res;
+[v _n `uc ~T0 @X0 1 a ]
+[v _res `uc ~T0 @X0 1 a ]
+"213
+[; ;diskio.c: 213:  if (cmd != (12)) {
+[e $ ! != -> _cmd `i -> 12 `i 314  ]
+{
+"214
+[; ;diskio.c: 214:   deselect();
+[e ( _deselect ..  ]
+"215
+[; ;diskio.c: 215:   if (!select()) return 0xFF;
+[e $ ! ! != -> ( _select ..  `i -> 0 `i 315  ]
+[e ) -> -> 255 `i `uc ]
+[e $UE 313  ]
+[e :U 315 ]
+"216
+[; ;diskio.c: 216:  }
+}
+[e :U 314 ]
+"219
+[; ;diskio.c: 219:  SPI_Exchange8bit(0x40 | cmd);
+[e ( _SPI_Exchange8bit (1 -> | -> 64 `i -> _cmd `i `uc ]
+"220
+[; ;diskio.c: 220:  SPI_Exchange8bit((BYTE)(arg >> 24));
+[e ( _SPI_Exchange8bit (1 -> >> _arg -> 24 `i `uc ]
+"221
+[; ;diskio.c: 221:  SPI_Exchange8bit((BYTE)(arg >> 16));
+[e ( _SPI_Exchange8bit (1 -> >> _arg -> 16 `i `uc ]
+"222
+[; ;diskio.c: 222:  SPI_Exchange8bit((BYTE)(arg >> 8));
+[e ( _SPI_Exchange8bit (1 -> >> _arg -> 8 `i `uc ]
+"223
+[; ;diskio.c: 223:  SPI_Exchange8bit((BYTE)arg);
+[e ( _SPI_Exchange8bit (1 -> _arg `uc ]
+"224
+[; ;diskio.c: 224:  n = 0x01;
+[e = _n -> -> 1 `i `uc ]
+"225
+[; ;diskio.c: 225:  if (cmd == (0)) n = 0x95;
+[e $ ! == -> _cmd `i -> 0 `i 316  ]
+[e = _n -> -> 149 `i `uc ]
+[e :U 316 ]
+"226
+[; ;diskio.c: 226:  if (cmd == (8)) n = 0x87;
+[e $ ! == -> _cmd `i -> 8 `i 317  ]
+[e = _n -> -> 135 `i `uc ]
+[e :U 317 ]
+"227
+[; ;diskio.c: 227:  SPI_Exchange8bit(n);
+[e ( _SPI_Exchange8bit (1 _n ]
+"230
+[; ;diskio.c: 230:  if (cmd == (12)) SPI_Exchange8bit(0xFF);
+[e $ ! == -> _cmd `i -> 12 `i 318  ]
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+[e :U 318 ]
+"231
+[; ;diskio.c: 231:  n = 10;
+[e = _n -> -> 10 `i `uc ]
+"232
+[; ;diskio.c: 232:  do
+[e :U 321 ]
+"233
+[; ;diskio.c: 233:   res = SPI_Exchange8bit(0xFF);
+[e = _res ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+[e $ && != & -> _res `i -> 128 `i -> 0 `i != -> =- _n -> -> 1 `i `uc `i -> 0 `i 321  ]
+[e :U 320 ]
+"236
+[; ;diskio.c: 236:  return res;
+[e ) _res ]
+[e $UE 313  ]
+"237
+[; ;diskio.c: 237: }
+[e :UE 313 ]
+}
+"241
+[; ;diskio.c: 241: BYTE send_cmd (
+[v _send_cmd `(uc ~T0 @X0 1 sf2`uc`ul ]
+"245
+[; ;diskio.c: 245: {
+{
+[e :U _send_cmd ]
+"242
+[; ;diskio.c: 242:  BYTE cmd,
+[v _cmd `uc ~T0 @X0 1 r1 ]
+"243
+[; ;diskio.c: 243:  DWORD arg
+[v _arg `ul ~T0 @X0 1 r2 ]
+"245
+[; ;diskio.c: 245: {
+[f ]
+"249
+[; ;diskio.c: 249:  BYTE res;
+[v _res `uc ~T0 @X0 1 a ]
+"252
+[; ;diskio.c: 252:  if (cmd & 0x80) {
+[e $ ! != & -> _cmd `i -> 128 `i -> 0 `i 323  ]
+{
+"253
+[; ;diskio.c: 253:   cmd &= 0x7F;
+[e =& _cmd -> -> 127 `i `uc ]
+"255
+[; ;diskio.c: 255:   res = __send_cmd((55), 0);
+[e = _res ( ___send_cmd (2 , -> -> 55 `i `uc -> -> -> 0 `i `l `ul ]
+"259
+[; ;diskio.c: 259:   if (res > 1) return res;
+[e $ ! > -> _res `i -> 1 `i 324  ]
+[e ) _res ]
+[e $UE 322  ]
+[e :U 324 ]
+"260
+[; ;diskio.c: 260:  }
+}
+[e :U 323 ]
+"263
+[; ;diskio.c: 263:  return __send_cmd(cmd, arg);
+[e ) ( ___send_cmd (2 , _cmd _arg ]
+[e $UE 322  ]
+"291
+[; ;diskio.c: 291: }
+[e :UE 322 ]
+}
+"306
+[; ;diskio.c: 306: DSTATUS disk_initialize (
+[v _disk_initialize `(uc ~T0 @X0 1 ef1`uc ]
+"309
+[; ;diskio.c: 309: {
+{
+[e :U _disk_initialize ]
+"307
+[; ;diskio.c: 307:  BYTE pdrv
+[v _pdrv `uc ~T0 @X0 1 r1 ]
+"309
+[; ;diskio.c: 309: {
+[f ]
+"310
+[; ;diskio.c: 310:  BYTE n, cmd, ty, ocr[4];
+[v _n `uc ~T0 @X0 1 a ]
+[v _cmd `uc ~T0 @X0 1 a ]
+[v _ty `uc ~T0 @X0 1 a ]
+[v _ocr `uc ~T0 @X0 -> 4 `i a ]
+"311
+[; ;diskio.c: 311:  UINT tmr;
+[v _tmr `us ~T0 @X0 1 a ]
+"314
+[; ;diskio.c: 314:  if (pdrv) return 0x01;
+[e $ ! != -> _pdrv `i -> 0 `i 326  ]
+[e ) -> -> 1 `i `uc ]
+[e $UE 325  ]
+[e :U 326 ]
+"316
+[; ;diskio.c: 316:  if (Stat & 0x02) return Stat;
+[e $ ! != & -> _Stat `i -> 2 `i -> 0 `i 327  ]
+[e ) _Stat ]
+[e $UE 325  ]
+[e :U 327 ]
+"318
+[; ;diskio.c: 318:  SPI_Initialize();
+[e ( _SPI_Initialize ..  ]
+"319
+[; ;diskio.c: 319:  for (n = 10; n; n--) SPI_Exchange8bit(0xFF);
+{
+[e = _n -> -> 10 `i `uc ]
+[e $U 331  ]
+[e :U 328 ]
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+[e -- _n -> -> 1 `i `uc ]
+[e :U 331 ]
+[e $ != -> _n `i -> 0 `i 328  ]
+[e :U 329 ]
+}
+"321
+[; ;diskio.c: 321:  ty = 0;
+[e = _ty -> -> 0 `i `uc ]
+"322
+[; ;diskio.c: 322:  if (send_cmd((0), 0) == 1) {
+[e $ ! == -> ( _send_cmd (2 , -> -> 0 `i `uc -> -> -> 0 `i `l `ul `i -> 1 `i 332  ]
+{
+"323
+[; ;diskio.c: 323:   if (send_cmd((8), 0x1AA) == 1) {
+[e $ ! == -> ( _send_cmd (2 , -> -> 8 `i `uc -> -> -> 426 `i `l `ul `i -> 1 `i 333  ]
+{
+"324
+[; ;diskio.c: 324:    for (n = 0; n < 4; n++) ocr[n] = SPI_Exchange8bit(0xFF);
+{
+[e = _n -> -> 0 `i `uc ]
+[e $ < -> _n `i -> 4 `i 334  ]
+[e $U 335  ]
+[e :U 334 ]
+[e = *U + &U _ocr * -> _n `ux -> -> # *U &U _ocr `ui `ux ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+[e ++ _n -> -> 1 `i `uc ]
+[e $ < -> _n `i -> 4 `i 334  ]
+[e :U 335 ]
+}
+"325
+[; ;diskio.c: 325:    if (ocr[2] == 0x01 && ocr[3] == 0xAA) {
+[e $ ! && == -> *U + &U _ocr * -> -> -> 2 `i `ui `ux -> -> # *U &U _ocr `ui `ux `i -> 1 `i == -> *U + &U _ocr * -> -> -> 3 `i `ui `ux -> -> # *U &U _ocr `ui `ux `i -> 170 `i 337  ]
+{
+"326
+[; ;diskio.c: 326:     for (tmr = 1000; tmr; tmr--) {
+{
+[e = _tmr -> -> 1000 `i `us ]
+[e $U 341  ]
+[e :U 338 ]
+{
+"327
+[; ;diskio.c: 327:      if (send_cmd((0x80+41), 1UL << 30) == 0) break;
+[e $ ! == -> ( _send_cmd (2 , -> + -> 128 `i -> 41 `i `uc << -> 1 `ul -> 30 `i `i -> 0 `i 342  ]
+[e $U 339  ]
+[e :U 342 ]
+"328
+[; ;diskio.c: 328:      _delay((unsigned long)((1)*(8000000UL/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `ul `d .4000.0 `ul ]
+"329
+[; ;diskio.c: 329:     }
+}
+[e -- _tmr -> -> 1 `i `us ]
+[e :U 341 ]
+[e $ != -> _tmr `ui -> -> 0 `i `ui 338  ]
+[e :U 339 ]
+}
+"330
+[; ;diskio.c: 330:     if (tmr && send_cmd((58), 0) == 0) {
+[e $ ! && != -> _tmr `ui -> -> 0 `i `ui == -> ( _send_cmd (2 , -> -> 58 `i `uc -> -> -> 0 `i `l `ul `i -> 0 `i 343  ]
+{
+"331
+[; ;diskio.c: 331:      for (n = 0; n < 4; n++) ocr[n] = SPI_Exchange8bit(0xFF);
+{
+[e = _n -> -> 0 `i `uc ]
+[e $ < -> _n `i -> 4 `i 344  ]
+[e $U 345  ]
+[e :U 344 ]
+[e = *U + &U _ocr * -> _n `ux -> -> # *U &U _ocr `ui `ux ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+[e ++ _n -> -> 1 `i `uc ]
+[e $ < -> _n `i -> 4 `i 344  ]
+[e :U 345 ]
+}
+"332
+[; ;diskio.c: 332:      ty = (ocr[0] & 0x40) ? 0x04 | 0x08 : 0x04;
+[e = _ty -> ? != & -> *U + &U _ocr * -> -> -> 0 `i `ui `ux -> -> # *U &U _ocr `ui `ux `i -> 64 `i -> 0 `i : | -> 4 `i -> 8 `i -> 4 `i `uc ]
+"333
+[; ;diskio.c: 333:     }
+}
+[e :U 343 ]
+"334
+[; ;diskio.c: 334:    }
+}
+[e :U 337 ]
+"335
+[; ;diskio.c: 335:   } else {
+}
+[e $U 347  ]
+[e :U 333 ]
+{
+"336
+[; ;diskio.c: 336:    if (send_cmd((0x80+41), 0) <= 1) {
+[e $ ! <= -> ( _send_cmd (2 , -> + -> 128 `i -> 41 `i `uc -> -> -> 0 `i `l `ul `i -> 1 `i 348  ]
+{
+"337
+[; ;diskio.c: 337:     ty = 0x02; cmd = (0x80+41);
+[e = _ty -> -> 2 `i `uc ]
+[e = _cmd -> + -> 128 `i -> 41 `i `uc ]
+"338
+[; ;diskio.c: 338:    } else {
+}
+[e $U 349  ]
+[e :U 348 ]
+{
+"339
+[; ;diskio.c: 339:     ty = 0x01; cmd = (1);
+[e = _ty -> -> 1 `i `uc ]
+[e = _cmd -> -> 1 `i `uc ]
+"340
+[; ;diskio.c: 340:    }
+}
+[e :U 349 ]
+"341
+[; ;diskio.c: 341:    for (tmr = 1000; tmr; tmr--) {
+{
+[e = _tmr -> -> 1000 `i `us ]
+[e $U 353  ]
+[e :U 350 ]
+{
+"342
+[; ;diskio.c: 342:     if (send_cmd(cmd, 0) == 0) break;
+[e $ ! == -> ( _send_cmd (2 , _cmd -> -> -> 0 `i `l `ul `i -> 0 `i 354  ]
+[e $U 351  ]
+[e :U 354 ]
+"343
+[; ;diskio.c: 343:     _delay((unsigned long)((1)*(8000000UL/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `ul `d .4000.0 `ul ]
+"344
+[; ;diskio.c: 344:    }
+}
+[e -- _tmr -> -> 1 `i `us ]
+[e :U 353 ]
+[e $ != -> _tmr `ui -> -> 0 `i `ui 350  ]
+[e :U 351 ]
+}
+"345
+[; ;diskio.c: 345:    if (!tmr || send_cmd((16), 512) != 0)
+[e $ ! || ! != -> _tmr `ui -> -> 0 `i `ui != -> ( _send_cmd (2 , -> -> 16 `i `uc -> -> -> 512 `i `l `ul `i -> 0 `i 355  ]
+"346
+[; ;diskio.c: 346:     ty = 0;
+[e = _ty -> -> 0 `i `uc ]
+[e :U 355 ]
+"347
+[; ;diskio.c: 347:   }
+}
+[e :U 347 ]
+"348
+[; ;diskio.c: 348:  }
+}
+[e :U 332 ]
+"349
+[; ;diskio.c: 349:  CardType = ty;
+[e = _CardType _ty ]
+"350
+[; ;diskio.c: 350:  deselect();
+[e ( _deselect ..  ]
+"352
+[; ;diskio.c: 352:  if (ty) {
+[e $ ! != -> _ty `i -> 0 `i 356  ]
+{
+"353
+[; ;diskio.c: 353:   Stat &= ~0x01;
+[e =& _Stat -> ~ -> 1 `i `uc ]
+"354
+[; ;diskio.c: 354:   SPI_Open();
+[e ( _SPI_Open ..  ]
+"355
+[; ;diskio.c: 355:  }
+}
+[e :U 356 ]
+"357
+[; ;diskio.c: 357:  return Stat;
+[e ) _Stat ]
+[e $UE 325  ]
+"358
+[; ;diskio.c: 358: }
+[e :UE 325 ]
+}
+"366
+[; ;diskio.c: 366: DSTATUS disk_status (
+[v _disk_status `(uc ~T0 @X0 1 ef1`uc ]
+"369
+[; ;diskio.c: 369: {
+{
+[e :U _disk_status ]
+"367
+[; ;diskio.c: 367:  BYTE pdrv
+[v _pdrv `uc ~T0 @X0 1 r1 ]
+"369
+[; ;diskio.c: 369: {
+[f ]
+"370
+[; ;diskio.c: 370:  if (pdrv) return 0x01;
+[e $ ! != -> _pdrv `i -> 0 `i 358  ]
+[e ) -> -> 1 `i `uc ]
+[e $UE 357  ]
+[e :U 358 ]
+"371
+[; ;diskio.c: 371:  return Stat;
+[e ) _Stat ]
+[e $UE 357  ]
+"372
+[; ;diskio.c: 372: }
+[e :UE 357 ]
+}
+"380
+[; ;diskio.c: 380: DRESULT disk_read (
+[v _disk_read `(E45 ~T0 @X0 1 ef4`uc`*uc`ul`us ]
+"386
+[; ;diskio.c: 386: {
+{
+[e :U _disk_read ]
+"381
+[; ;diskio.c: 381:  BYTE pdrv,
+[v _pdrv `uc ~T0 @X0 1 r1 ]
+"382
+[; ;diskio.c: 382:  BYTE *buff,
+[v _buff `*uc ~T0 @X0 1 r2 ]
+"383
+[; ;diskio.c: 383:  DWORD sector,
+[v _sector `ul ~T0 @X0 1 r3 ]
+"384
+[; ;diskio.c: 384:  UINT count
+[v _count `us ~T0 @X0 1 r4 ]
+"386
+[; ;diskio.c: 386: {
+[f ]
+"387
+[; ;diskio.c: 387:  BYTE cmd;
+[v _cmd `uc ~T0 @X0 1 a ]
+"390
+[; ;diskio.c: 390:  if (pdrv || !count) return RES_PARERR;
+[e $ ! || != -> _pdrv `i -> 0 `i ! != -> _count `ui -> -> 0 `i `ui 360  ]
+[e ) . `E45 4 ]
+[e $UE 359  ]
+[e :U 360 ]
+"391
+[; ;diskio.c: 391:  if (Stat & 0x01) return RES_NOTRDY;
+[e $ ! != & -> _Stat `i -> 1 `i -> 0 `i 361  ]
+[e ) . `E45 3 ]
+[e $UE 359  ]
+[e :U 361 ]
+"393
+[; ;diskio.c: 393:  if (!(CardType & 0x08)) sector *= 512;
+[e $ ! ! != & -> _CardType `i -> 8 `i -> 0 `i 362  ]
+[e =* _sector -> -> -> 512 `i `l `ul ]
+[e :U 362 ]
+"395
+[; ;diskio.c: 395:  cmd = count > 1 ? (18) : (17);
+[e = _cmd -> ? > -> _count `ui -> -> 1 `i `ui : -> 18 `i -> 17 `i `uc ]
+"396
+[; ;diskio.c: 396:  if (send_cmd(cmd, sector) == 0) {
+[e $ ! == -> ( _send_cmd (2 , _cmd _sector `i -> 0 `i 363  ]
+{
+"397
+[; ;diskio.c: 397:   do {
+[e :U 366 ]
+{
+"398
+[; ;diskio.c: 398:    if (!rcvr_datablock(buff, 512)) break;
+[e $ ! ! != -> ( _rcvr_datablock (2 , _buff -> -> 512 `i `us `i -> 0 `i 367  ]
+[e $U 365  ]
+[e :U 367 ]
+"399
+[; ;diskio.c: 399:    buff += 512;
+[e =+ _buff * -> -> 512 `i `x -> -> # *U _buff `i `x ]
+"400
+[; ;diskio.c: 400:   } while (--count);
+}
+[e $ != -> =- _count -> -> 1 `i `us `ui -> -> 0 `i `ui 366  ]
+[e :U 365 ]
+"401
+[; ;diskio.c: 401:   if (cmd == (18)) send_cmd((12), 0);
+[e $ ! == -> _cmd `i -> 18 `i 368  ]
+[e ( _send_cmd (2 , -> -> 12 `i `uc -> -> -> 0 `i `l `ul ]
+[e :U 368 ]
+"402
+[; ;diskio.c: 402:  }
+}
+[e :U 363 ]
+"403
+[; ;diskio.c: 403:  deselect();
+[e ( _deselect ..  ]
+"405
+[; ;diskio.c: 405:  return count ? RES_ERROR : RES_OK;
+[e ) -> ? != -> _count `ui -> -> 0 `i `ui : . `E45 1 . `E45 0 `E45 ]
+[e $UE 359  ]
+"406
+[; ;diskio.c: 406: }
+[e :UE 359 ]
+}
+"415
+[; ;diskio.c: 415: DRESULT disk_write (
+[v _disk_write `(E45 ~T0 @X0 1 ef4`uc`*Cuc`ul`us ]
+"421
+[; ;diskio.c: 421: {
+{
+[e :U _disk_write ]
+"416
+[; ;diskio.c: 416:  BYTE pdrv,
+[v _pdrv `uc ~T0 @X0 1 r1 ]
+"417
+[; ;diskio.c: 417:  const BYTE *buff,
+[v _buff `*Cuc ~T0 @X0 1 r2 ]
+"418
+[; ;diskio.c: 418:  DWORD sector,
+[v _sector `ul ~T0 @X0 1 r3 ]
+"419
+[; ;diskio.c: 419:  UINT count
+[v _count `us ~T0 @X0 1 r4 ]
+"421
+[; ;diskio.c: 421: {
+[f ]
+"422
+[; ;diskio.c: 422:  if (pdrv || !count) return RES_PARERR;
+[e $ ! || != -> _pdrv `i -> 0 `i ! != -> _count `ui -> -> 0 `i `ui 370  ]
+[e ) . `E45 4 ]
+[e $UE 369  ]
+[e :U 370 ]
+"423
+[; ;diskio.c: 423:  if (Stat & 0x01) return RES_NOTRDY;
+[e $ ! != & -> _Stat `i -> 1 `i -> 0 `i 371  ]
+[e ) . `E45 3 ]
+[e $UE 369  ]
+[e :U 371 ]
+"424
+[; ;diskio.c: 424:  if (Stat & 0x04) return RES_WRPRT;
+[e $ ! != & -> _Stat `i -> 4 `i -> 0 `i 372  ]
+[e ) . `E45 2 ]
+[e $UE 369  ]
+[e :U 372 ]
+"426
+[; ;diskio.c: 426:  if (!(CardType & 0x08)) sector *= 512;
+[e $ ! ! != & -> _CardType `i -> 8 `i -> 0 `i 373  ]
+[e =* _sector -> -> -> 512 `i `l `ul ]
+[e :U 373 ]
+"428
+[; ;diskio.c: 428:  if (count == 1) {
+[e $ ! == -> _count `ui -> -> 1 `i `ui 374  ]
+{
+"429
+[; ;diskio.c: 429:   if ((send_cmd((24), sector) == 0)
+[e $ ! && == -> ( _send_cmd (2 , -> -> 24 `i `uc _sector `i -> 0 `i != -> ( _xmit_datablock (2 , _buff -> -> 254 `i `uc `i -> 0 `i 375  ]
+"431
+[; ;diskio.c: 431:    count = 0;
+[e = _count -> -> 0 `i `us ]
+[e :U 375 ]
+"432
+[; ;diskio.c: 432:  }
+}
+[e $U 376  ]
+"433
+[; ;diskio.c: 433:  else {
+[e :U 374 ]
+{
+"434
+[; ;diskio.c: 434:   if (CardType & (0x02|0x04)) send_cmd((0x80+23), count);
+[e $ ! != & -> _CardType `i | -> 2 `i -> 4 `i -> 0 `i 377  ]
+[e ( _send_cmd (2 , -> + -> 128 `i -> 23 `i `uc -> _count `ul ]
+[e :U 377 ]
+"435
+[; ;diskio.c: 435:   if (send_cmd((25), sector) == 0) {
+[e $ ! == -> ( _send_cmd (2 , -> -> 25 `i `uc _sector `i -> 0 `i 378  ]
+{
+"436
+[; ;diskio.c: 436:    do {
+[e :U 381 ]
+{
+"437
+[; ;diskio.c: 437:     if (!xmit_datablock(buff, 0xFC)) break;
+[e $ ! ! != -> ( _xmit_datablock (2 , _buff -> -> 252 `i `uc `i -> 0 `i 382  ]
+[e $U 380  ]
+[e :U 382 ]
+"438
+[; ;diskio.c: 438:     buff += 512;
+[e =+ _buff * -> -> 512 `i `x -> -> # *U _buff `i `x ]
+"439
+[; ;diskio.c: 439:    } while (--count);
+}
+[e $ != -> =- _count -> -> 1 `i `us `ui -> -> 0 `i `ui 381  ]
+[e :U 380 ]
+"440
+[; ;diskio.c: 440:    if (!xmit_datablock(0, 0xFD))
+[e $ ! ! != -> ( _xmit_datablock (2 , -> -> 0 `i `*Cuc -> -> 253 `i `uc `i -> 0 `i 383  ]
+"441
+[; ;diskio.c: 441:     count = 1;
+[e = _count -> -> 1 `i `us ]
+[e :U 383 ]
+"442
+[; ;diskio.c: 442:   }
+}
+[e :U 378 ]
+"443
+[; ;diskio.c: 443:  }
+}
+[e :U 376 ]
+"444
+[; ;diskio.c: 444:  deselect();
+[e ( _deselect ..  ]
+"446
+[; ;diskio.c: 446:  return count ? RES_ERROR : RES_OK;
+[e ) -> ? != -> _count `ui -> -> 0 `i `ui : . `E45 1 . `E45 0 `E45 ]
+[e $UE 369  ]
+"447
+[; ;diskio.c: 447: }
+[e :UE 369 ]
+}
+"456
+[; ;diskio.c: 456: DRESULT disk_ioctl (
+[v _disk_ioctl `(E45 ~T0 @X0 1 ef3`uc`uc`*v ]
+"461
+[; ;diskio.c: 461: {
+{
+[e :U _disk_ioctl ]
+"457
+[; ;diskio.c: 457:  BYTE pdrv,
+[v _pdrv `uc ~T0 @X0 1 r1 ]
+"458
+[; ;diskio.c: 458:  BYTE cmd,
+[v _cmd `uc ~T0 @X0 1 r2 ]
+"459
+[; ;diskio.c: 459:  void *buff
+[v _buff `*v ~T0 @X0 1 r3 ]
+"461
+[; ;diskio.c: 461: {
+[f ]
+"462
+[; ;diskio.c: 462:  DRESULT res;
+[v _res `E45 ~T0 @X0 1 a ]
+"463
+[; ;diskio.c: 463:  BYTE n, csd[16], *ptr = buff;
+[v _n `uc ~T0 @X0 1 a ]
+[v _csd `uc ~T0 @X0 -> 16 `i a ]
+[v _ptr `*uc ~T0 @X0 1 a ]
+[e = _ptr -> _buff `*uc ]
+"464
+[; ;diskio.c: 464:  DWORD csize;
+[v _csize `ul ~T0 @X0 1 a ]
+"467
+[; ;diskio.c: 467:  if (pdrv) return RES_PARERR;
+[e $ ! != -> _pdrv `i -> 0 `i 385  ]
+[e ) . `E45 4 ]
+[e $UE 384  ]
+[e :U 385 ]
+"469
+[; ;diskio.c: 469:  res = RES_ERROR;
+[e = _res . `E45 1 ]
+"471
+[; ;diskio.c: 471:  if (Stat & 0x01) return RES_NOTRDY;
+[e $ ! != & -> _Stat `i -> 1 `i -> 0 `i 386  ]
+[e ) . `E45 3 ]
+[e $UE 384  ]
+[e :U 386 ]
+"473
+[; ;diskio.c: 473:  switch (cmd) {
+[e $U 388  ]
+{
+"474
+[; ;diskio.c: 474:  case 0 :
+[e :U 389 ]
+"475
+[; ;diskio.c: 475:   if (select()) res = RES_OK;
+[e $ ! != -> ( _select ..  `i -> 0 `i 390  ]
+[e = _res . `E45 0 ]
+[e :U 390 ]
+"476
+[; ;diskio.c: 476:   break;
+[e $U 387  ]
+"478
+[; ;diskio.c: 478:  case 1 :
+[e :U 391 ]
+"479
+[; ;diskio.c: 479:   if ((send_cmd((9), 0) == 0) && rcvr_datablock(csd, 16)) {
+[e $ ! && == -> ( _send_cmd (2 , -> -> 9 `i `uc -> -> -> 0 `i `l `ul `i -> 0 `i != -> ( _rcvr_datablock (2 , &U _csd -> -> 16 `i `us `i -> 0 `i 392  ]
+{
+"480
+[; ;diskio.c: 480:    if ((csd[0] >> 6) == 1) {
+[e $ ! == >> -> *U + &U _csd * -> -> -> 0 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 6 `i -> 1 `i 393  ]
+{
+"481
+[; ;diskio.c: 481:     csize = csd[9] + ((WORD)csd[8] << 8) + ((DWORD)(csd[7] & 63) << 16) + 1;
+[e = _csize + + -> + -> *U + &U _csd * -> -> -> 9 `i `ui `ux -> -> # *U &U _csd `ui `ux `ui << -> -> *U + &U _csd * -> -> -> 8 `i `ui `ux -> -> # *U &U _csd `ui `ux `us `ui -> 8 `i `ul << -> & -> *U + &U _csd * -> -> -> 7 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 63 `i `ul -> 16 `i -> -> -> 1 `i `l `ul ]
+"482
+[; ;diskio.c: 482:     *(DWORD*)buff = csize << 10;
+[e = *U -> _buff `*ul << _csize -> 10 `i ]
+"483
+[; ;diskio.c: 483:    } else {
+}
+[e $U 394  ]
+[e :U 393 ]
+{
+"484
+[; ;diskio.c: 484:     n = (csd[5] & 15) + ((csd[10] & 128) >> 7) + ((csd[9] & 3) << 1) + 2;
+[e = _n -> + + + & -> *U + &U _csd * -> -> -> 5 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 15 `i >> & -> *U + &U _csd * -> -> -> 10 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 128 `i -> 7 `i << & -> *U + &U _csd * -> -> -> 9 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 3 `i -> 1 `i -> 2 `i `uc ]
+"485
+[; ;diskio.c: 485:     csize = (csd[8] >> 6) + ((WORD)csd[7] << 2) + ((WORD)(csd[6] & 3) << 10) + 1;
+[e = _csize -> + + + -> >> -> *U + &U _csd * -> -> -> 8 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 6 `i `ui << -> -> *U + &U _csd * -> -> -> 7 `i `ui `ux -> -> # *U &U _csd `ui `ux `us `ui -> 2 `i << -> -> & -> *U + &U _csd * -> -> -> 6 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 3 `i `us `ui -> 10 `i -> -> 1 `i `ui `ul ]
+"486
+[; ;diskio.c: 486:     *(DWORD*)buff = csize << (n - 9);
+[e = *U -> _buff `*ul << _csize - -> _n `i -> 9 `i ]
+"487
+[; ;diskio.c: 487:    }
+}
+[e :U 394 ]
+"488
+[; ;diskio.c: 488:    res = RES_OK;
+[e = _res . `E45 0 ]
+"489
+[; ;diskio.c: 489:   }
+}
+[e :U 392 ]
+"490
+[; ;diskio.c: 490:   break;
+[e $U 387  ]
+"492
+[; ;diskio.c: 492:  case 3 :
+[e :U 395 ]
+"493
+[; ;diskio.c: 493:   if (CardType & 0x04) {
+[e $ ! != & -> _CardType `i -> 4 `i -> 0 `i 396  ]
+{
+"494
+[; ;diskio.c: 494:    if (send_cmd((0x80+13), 0) == 0) {
+[e $ ! == -> ( _send_cmd (2 , -> + -> 128 `i -> 13 `i `uc -> -> -> 0 `i `l `ul `i -> 0 `i 397  ]
+{
+"495
+[; ;diskio.c: 495:     SPI_Exchange8bit(0xFF);
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"496
+[; ;diskio.c: 496:     if (rcvr_datablock(csd, 16)) {
+[e $ ! != -> ( _rcvr_datablock (2 , &U _csd -> -> 16 `i `us `i -> 0 `i 398  ]
+{
+"497
+[; ;diskio.c: 497:      for (n = 64 - 16; n; n--) SPI_Exchange8bit(0xFF);
+{
+[e = _n -> - -> 64 `i -> 16 `i `uc ]
+[e $U 402  ]
+[e :U 399 ]
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+[e -- _n -> -> 1 `i `uc ]
+[e :U 402 ]
+[e $ != -> _n `i -> 0 `i 399  ]
+[e :U 400 ]
+}
+"498
+[; ;diskio.c: 498:      *(DWORD*)buff = 16UL << (csd[10] >> 4);
+[e = *U -> _buff `*ul << -> 16 `ul >> -> *U + &U _csd * -> -> -> 10 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 4 `i ]
+"499
+[; ;diskio.c: 499:      res = RES_OK;
+[e = _res . `E45 0 ]
+"500
+[; ;diskio.c: 500:     }
+}
+[e :U 398 ]
+"501
+[; ;diskio.c: 501:    }
+}
+[e :U 397 ]
+"502
+[; ;diskio.c: 502:   } else {
+}
+[e $U 403  ]
+[e :U 396 ]
+{
+"503
+[; ;diskio.c: 503:    if ((send_cmd((9), 0) == 0) && rcvr_datablock(csd, 16)) {
+[e $ ! && == -> ( _send_cmd (2 , -> -> 9 `i `uc -> -> -> 0 `i `l `ul `i -> 0 `i != -> ( _rcvr_datablock (2 , &U _csd -> -> 16 `i `us `i -> 0 `i 404  ]
+{
+"504
+[; ;diskio.c: 504:     if (CardType & 0x02) {
+[e $ ! != & -> _CardType `i -> 2 `i -> 0 `i 405  ]
+{
+"505
+[; ;diskio.c: 505:      *(DWORD*)buff = (((csd[10] & 63) << 1) + ((WORD)(csd[11] & 128) >> 7) + 1) << ((csd[13] >> 6) - 1);
+[e = *U -> _buff `*ul -> << + + -> << & -> *U + &U _csd * -> -> -> 10 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 63 `i -> 1 `i `ui >> -> -> & -> *U + &U _csd * -> -> -> 11 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 128 `i `us `ui -> 7 `i -> -> 1 `i `ui - >> -> *U + &U _csd * -> -> -> 13 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 6 `i -> 1 `i `ul ]
+"506
+[; ;diskio.c: 506:     } else {
+}
+[e $U 406  ]
+[e :U 405 ]
+{
+"507
+[; ;diskio.c: 507:      *(DWORD*)buff = ((WORD)((csd[10] & 124) >> 2) + 1) * (((csd[11] & 3) << 3) + ((csd[11] & 224) >> 5) + 1);
+[e = *U -> _buff `*ul -> * + -> -> >> & -> *U + &U _csd * -> -> -> 10 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 124 `i -> 2 `i `us `ui -> -> 1 `i `ui -> + + << & -> *U + &U _csd * -> -> -> 11 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 3 `i -> 3 `i >> & -> *U + &U _csd * -> -> -> 11 `i `ui `ux -> -> # *U &U _csd `ui `ux `i -> 224 `i -> 5 `i -> 1 `i `ui `ul ]
+"508
+[; ;diskio.c: 508:     }
+}
+[e :U 406 ]
+"509
+[; ;diskio.c: 509:     res = RES_OK;
+[e = _res . `E45 0 ]
+"510
+[; ;diskio.c: 510:    }
+}
+[e :U 404 ]
+"511
+[; ;diskio.c: 511:   }
+}
+[e :U 403 ]
+"512
+[; ;diskio.c: 512:   break;
+[e $U 387  ]
+"516
+[; ;diskio.c: 516:  case 10 :
+[e :U 407 ]
+"517
+[; ;diskio.c: 517:   *ptr = CardType;
+[e = *U _ptr _CardType ]
+"518
+[; ;diskio.c: 518:   res = RES_OK;
+[e = _res . `E45 0 ]
+"519
+[; ;diskio.c: 519:   break;
+[e $U 387  ]
+"521
+[; ;diskio.c: 521:  case 11 :
+[e :U 408 ]
+"522
+[; ;diskio.c: 522:   if (send_cmd((9), 0) == 0
+[e $ ! && == -> ( _send_cmd (2 , -> -> 9 `i `uc -> -> -> 0 `i `l `ul `i -> 0 `i != -> ( _rcvr_datablock (2 , _ptr -> -> 16 `i `us `i -> 0 `i 409  ]
+"524
+[; ;diskio.c: 524:    res = RES_OK;
+[e = _res . `E45 0 ]
+[e :U 409 ]
+"525
+[; ;diskio.c: 525:   break;
+[e $U 387  ]
+"527
+[; ;diskio.c: 527:  case 12 :
+[e :U 410 ]
+"528
+[; ;diskio.c: 528:   if (send_cmd((10), 0) == 0
+[e $ ! && == -> ( _send_cmd (2 , -> -> 10 `i `uc -> -> -> 0 `i `l `ul `i -> 0 `i != -> ( _rcvr_datablock (2 , _ptr -> -> 16 `i `us `i -> 0 `i 411  ]
+"530
+[; ;diskio.c: 530:    res = RES_OK;
+[e = _res . `E45 0 ]
+[e :U 411 ]
+"531
+[; ;diskio.c: 531:   break;
+[e $U 387  ]
+"533
+[; ;diskio.c: 533:  case 13 :
+[e :U 412 ]
+"534
+[; ;diskio.c: 534:   if (send_cmd((58), 0) == 0) {
+[e $ ! == -> ( _send_cmd (2 , -> -> 58 `i `uc -> -> -> 0 `i `l `ul `i -> 0 `i 413  ]
+{
+"535
+[; ;diskio.c: 535:    for (n = 4; n; n--) *ptr++ = SPI_Exchange8bit(0xFF);
+{
+[e = _n -> -> 4 `i `uc ]
+[e $U 417  ]
+[e :U 414 ]
+[e = *U ++ _ptr * -> -> 1 `i `x -> -> # *U _ptr `i `x ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+[e -- _n -> -> 1 `i `uc ]
+[e :U 417 ]
+[e $ != -> _n `i -> 0 `i 414  ]
+[e :U 415 ]
+}
+"536
+[; ;diskio.c: 536:    res = RES_OK;
+[e = _res . `E45 0 ]
+"537
+[; ;diskio.c: 537:   }
+}
+[e :U 413 ]
+"538
+[; ;diskio.c: 538:   break;
+[e $U 387  ]
+"540
+[; ;diskio.c: 540:  case 14 :
+[e :U 418 ]
+"541
+[; ;diskio.c: 541:   if (send_cmd((0x80+13), 0) == 0) {
+[e $ ! == -> ( _send_cmd (2 , -> + -> 128 `i -> 13 `i `uc -> -> -> 0 `i `l `ul `i -> 0 `i 419  ]
+{
+"542
+[; ;diskio.c: 542:    SPI_Exchange8bit(0xFF);
+[e ( _SPI_Exchange8bit (1 -> -> 255 `i `uc ]
+"543
+[; ;diskio.c: 543:    if (rcvr_datablock(ptr, 64))
+[e $ ! != -> ( _rcvr_datablock (2 , _ptr -> -> 64 `i `us `i -> 0 `i 420  ]
+"544
+[; ;diskio.c: 544:     res = RES_OK;
+[e = _res . `E45 0 ]
+[e :U 420 ]
+"545
+[; ;diskio.c: 545:   }
+}
+[e :U 419 ]
+"546
+[; ;diskio.c: 546:   break;
+[e $U 387  ]
+"548
+[; ;diskio.c: 548:  default:
+[e :U 421 ]
+"549
+[; ;diskio.c: 549:   res = RES_PARERR;
+[e = _res . `E45 4 ]
+"550
+[; ;diskio.c: 550:  }
+}
+[e $U 387  ]
+[e :U 388 ]
+[e [\ _cmd , $ -> 0 `i 389
+ , $ -> 1 `i 391
+ , $ -> 3 `i 395
+ , $ -> 10 `i 407
+ , $ -> 11 `i 408
+ , $ -> 12 `i 410
+ , $ -> 13 `i 412
+ , $ -> 14 `i 418
+ 421 ]
+[e :U 387 ]
+"552
+[; ;diskio.c: 552:  deselect();
+[e ( _deselect ..  ]
+"554
+[; ;diskio.c: 554:  return res;
+[e ) _res ]
+[e $UE 384  ]
+"555
+[; ;diskio.c: 555: }
+[e :UE 384 ]
+}
